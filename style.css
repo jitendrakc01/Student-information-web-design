@@ -1,0 +1,282 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+
+}
+
+/* navbar styling */
+
+.navbar{
+
+    position: fixed;
+    text-decoration: none;
+    width: 100%;
+    padding: 15px 0;
+    background-color: rgb(8, 8, 8);
+    font-family:'Times New Roman', Times, serif
+    
+    
+
+}
+
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    color: rgb(245, 243, 238);
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline;
+
+}
+
+.menu li a{
+  text-decoration: none;
+}
+
+.navbar .menu li a{
+    color: blanchedalmond;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+
+
+}
+
+.navbar .menu li a:hover
+ {
+     color: red;
+
+ }
+
+/* Home section styling */
+
+.home{
+    display: flex;
+    background: url(image/banner.jpg)no-repeat center;
+    height: 100vh;
+    color: rgb(255, 253, 253);
+    min-height: 500px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+
+
+.home .home-content .text-1{
+    font-size: 27px;
+}
+
+
+
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+
+
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+
+}
+
+
+.home .home-content .text-3 span{
+    color:crimson
+    font-weight 500px;
+    
+}
+
+
+
+
+
+/* form */
+
+.form{
+    width: 250px;
+    height: 400px;
+    background:linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 150px;
+    left: 1100px;
+    border-radius: 10px;
+    padding: 25px;
+  }
+  
+  .form h2{
+    width: 220px;
+    font-family: 'Times New Roman', Times;
+    text-align: center;
+    color: teal;
+    font-size: 22px;
+    background-color: rgb(247, 238, 238);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+  }
+  
+  
+  .form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #f2f2f2;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times;
+  }
+  
+  .form input:focus{
+    outline: none;
+  }
+  
+  ::placeholder{
+    color: white;
+    font-family: 'Times New Roman', Times;
+  }
+   .btnn{
+     width: 240px;
+     height: 40px;
+     background-color: orange;
+     border: none;
+     margin-top: 30px;
+     font-size: 18px;
+     border-radius: 10px;
+     cursor: pointer;
+     color:pink
+     transition:0.4s ease;
+   }
+  
+   .btnn:hover{
+     background: rgb(231, 223, 231);
+     color: #ff7200;
+   }
+  
+   .btnn a{
+     text-decoration: none;
+     color: rgba(0,0,0,0.8);
+     font-weight: bold;
+  
+   }
+  
+   .form .link{
+     font-family: 'Times New Roman', Times;
+     font-size: 17px;
+     padding-top: 20px;
+     text-align: center;
+   }
+  
+   .form .link a{
+     text-decoration: none;
+     color: #ff7200;
+   }
+  
+  .liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+  
+  }
+  
+
+
+  
+showcase h1{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+#photo{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+#photo img{
+  width: 200px;
+  border-radius: 10px;
+  border: 2px solid #000;
+  margin: auto;
+}
+
+.apply{
+  margin-top: 4%;
+  background-color: orangered;
+  padding: 0.7rem 1rem;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+
+
+footer{
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1.2rem;
+  margin-top: 4%;
+}
+
+/*THE END*/
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

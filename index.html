@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student information</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">ISM<span>T</span></a></div>
+            <ul class="menu">
+                <li><a href="index.html" class="menu-btn">Home</a></li>
+                <li><a href="student.html" class="menu-btn">Student</a></li>
+                <li><a href="config.html" class="menu-btn">config</a></li>
+                
+                <li><a href="contact.html" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">ISMT College</div>
+                <div class="text-2">Pokhara</div>
+                <div class="text-3">Annapurna marg  15 <span class="typing"></span></div>
+                <a href="#">Near forsty</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    
+    <div class="form">
+        
+        <form action="/action_page.php" class="container">
+          <h2>Login Here</h2>
+
+         
+          <input type="email"name=email" placeholder="Enter Email" id="email" required>
+      
+          
+          <input type="password name=password" placeholder="Enter Password" id="password" required>
+          
+         
+      
+           <button class="btnn" class="btn" id="Login" onclick="validate">Login </button> 
+          <p class="link">Dont have account <br>
+          <a href="#">Sign up here</a> </p>
+          <p class="liw">Log in with</p>
+
+        </div>
+      </div>
+
+
+      <!--SHOWCASE-->
+      <showcase>
+        <h1> College Gallery</h1>
+        <div id="photo">
+            <div class="cs">
+              
+                <img src="image/4.jpg" width="50%" alt="cs">
+               
+            </div>
+            <div class="jitendra">
+                <!-- <h3>Business Studies</h3> -->
+                <img src="image/2.jpg" alt="business">
+              
+            </div>
+            <div class="jiten">
+                <!-- <h3> Gallery</h3> -->
+                <img src="image/3.jpg" alt="media">
+                
+            </div>
+            <div class="pokhara">
+               
+                <img src="image/4.jpg" alt="arts">
+                
+            </div>
+            <div class="prince">
+                
+                <img src="image/1.jpg" alt="ms">
+                
+            </div>
+        </div> 
+    </showcase> 
+ <!--END OF SHOWCASE-->
+
+  
+ <footer>
+    <p>Copyright &copy; 2021, Jitendra kc</p>
+</footer>
+
+      <script>
+            
+         
+            var attempt = 3; // Variable to count number of attempts.
+// Below function Executes on click of login button.
+function validate(){
+var email = document.getElementById("email").value;
+var password = document.getElementById("password").value;
+if ( email == "jitendra179@gmail.com" && password == "12345"){
+alert ("Login successfully");
+window.location = "index.html"; 
+return false;
+}
+else{
+attempt --;// Decrementing by one.
+alert("You have left "+attempt+" attempt;");
+// Disabling fields after 3 attempts.
+if( attempt == 0){
+document.getElementById("email").disabled = true;
+document.getElementById("password").disabled = true;
+document.getElementById("Login").disabled = true;
+return false;
+}
+}
+}
+
+          
+         
+          
+          
+          
+        
+      </script>
+    
+</body>
+</html>

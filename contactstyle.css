@@ -1,0 +1,248 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+
+
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+
+}
+
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(image/3.jpg);
+    background-position: center; 
+    background-size: cover; */
+}
+
+/* navbar styling */
+
+.navbar{
+
+    position: fixed;
+    text-decoration: none;
+    width: 100%;
+    padding: 15px 0;
+    background-color: rgb(8, 8, 8);
+    font-family:'Times New Roman', Times, serif
+    
+    
+
+}
+
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    color: rgb(245, 243, 238);
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline;
+
+}
+
+.menu li a{
+  text-decoration: none;
+}
+
+.navbar .menu li a{
+    color: blanchedalmond;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+
+
+}
+
+.navbar .menu li a:hover
+ {
+     color: red;
+
+ } 
+
+
+ .container{
+     width: 500px;
+     height: 900px;
+     margin: 10% auto;
+     background: rgb(12, 11, 11);
+     text-align: center;
+     border-radius: 50px; 
+     position: relative;
+     color: rgb(235, 224, 224);
+     transition: 0.5s;
+     overflow: hidden;
+
+ }
+
+ h3{
+     text-align: center;
+     margin-bottom: 40px;
+     color: #777;
+ } 
+
+ .container form{
+     width: 380px;
+     text-align: left;
+     position: absolute; 
+     top: 70px;
+     left: 40px;
+ }
+
+
+ form input{
+     width: 100%;
+     padding: 10px 5px;
+     margin: 5px 0;
+     border: 10;
+      border-bottom: 2px solid #999;
+     outline: none; */
+     background: transparent;
+    
+ } 
+
+
+
+ .message{
+    margin: 0;
+    font-family: -apple-system, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    padding: 30px;
+    padding-bottom: 10px;
+     border: 1px solid #ced4da; */
+    border-radius: 0.25rem; */
+    max-width: 100%;
+ }
+
+/* 
+ fcf-form-group {
+    margin-bottom: 1rem;
+} */
+
+
+
+
+
+
+
+
+
+.btn-box{
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+
+form button{
+    width: 120px;
+    height: 50px;
+    margin: 0 10px;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    color: #fff;
+    cursor:pointer;
+}
+
+
+
+
+ 
+.step-row{
+    width: 360px;
+    height: 40px;
+    margin:  auto;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 -1px 5px -1px #000;
+    position: relative;
+}
+
+.step-col{
+    width: 120px;
+    text-align: center;
+    color: #333;
+    position: relative;
+} 
+
+
+#progress{
+    position: absolute;
+    height: 100%;
+    width: 120px;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    transition: 1s;
+}
+
+
+#progress::after{
+    content: '';
+    height 0;
+    width: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    right: -20px;
+    top: 0;
+    border-left: 20px solid #ffad06;
+    
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
